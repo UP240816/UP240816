@@ -3,10 +3,10 @@ age = 18 #1. Declare your age as integer variable
 height = 1.75 #2. Declare your height as float variable
 numero_complejo = 3 + 4j #3. Declare a variable that store a complex number
 #4. Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
-height = float( input(\n " Enter the height of a triangle: "))
-Base = float( input(\n " Enter the base of a triangle: "))
+height = float( input( " Enter the height of a triangle: "))
+Base = float( input( " Enter the base of a triangle: "))
 area = 0.5 * Base * height
-print(\n "The area of the triangle is: ", area) 
+print( "The area of the triangle is: ", area) 
 #5. Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
 side_a = float(input("Enter side a of the triangle: "))
 side_b = float(input("Enter side b of the triangle: "))
