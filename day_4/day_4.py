@@ -98,9 +98,17 @@ print(sentences)
 tabbed_lines = "Name\tAge\tCountry\nJohn\t25\tUSA\nAlice\t30\tCanada"
 print(tabbed_lines)
     #35. Use the string formatting method to display the following:
-radius = 10
+radius= 10
 area = 3.14 * radius ** 2
-country = "USA"
-formatted_string = "The area of a circle with radius{} is{} meters square.".format(name, age, country)
-print(formatted_string)
+formatted_string = "The area of a circle with radius {} is {} meters square.".format(radius, area)
+print(formatted_string)  # Output: The area of a circle with radius 10 is 314.0 meters square.
     #36. Make the following using string formatting methods:
+a = 8
+b = 6 
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print("{} * {} = {}".format(a, b, a * b))
+print("{} / {} = {:.2f}".format(a, b, a / b))
+print("%d %% %d = %d" % (a, b, a % b))  # Note: %% escapes the percent symbol
+print("%d // %d = %d" % (a, b, a // b))
+print("%d ** %d = %d" % (a, b, a ** b)) 
